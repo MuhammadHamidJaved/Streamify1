@@ -3,10 +3,8 @@ from channels.generic.websocket import AsyncWebsocketConsumer
 from asgiref.sync import sync_to_async
 from django.core.files.base import ContentFile
 import base64
-# from django.conf import settings
 from uuid import uuid4
 from cloudinary.uploader import upload
-# from cloudinary.utils import cloudinary_url
 import hashlib
 
 
